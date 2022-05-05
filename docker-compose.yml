@@ -1,0 +1,7 @@
+version: '3.3'
+services:
+  alerts:
+    container_name: alerts
+    image: alerts_pandas:latest
+    ports:
+      - 8888:8888
